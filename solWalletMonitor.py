@@ -13,7 +13,7 @@ walletAddress = ""
 gmailAccount = ""
 #Your gmail account password   
 gmailLogin = ""
-#Email Address to send to,  I send to my version phone email adress which then sends a text
+#Email Address to send to,  I send to my verizon phone email adress which then sends a text
 sendEmailAccount = ""
 
 r = requests.get("http://api.solscan.io/account/tokens?address="+walletAddress+"&price=1", headers=headers)
